@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Carousel</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <style>
+            #feedback{
+                background: #0d0442;
+                padding: 7% 10%;
+            }
+            .hr-style{
+                border: 5px dotted white;
+                border-bottom: none;
+                width: 50px;
+            }
+            .carousel-item{
+                padding:5% 15%;
+                text-align:center;
+                font-style: italic;
+
+            }
+            .feedback-img{
+                width: 200px;
+                height: auto;
+            }
+            .carousel-indicators{
+                bottom: -20px;
+            }
+        </style>
+        
+    </head>
+    <body>
+<div class="container text-white">
+    <section id="feedback">
+        <div class="section-title">
+            <h3 class="text-center">Feedback</h3>
+            <hr class="hr-style">
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+               
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2000" data-puse="hover">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, sunt accusantium quam voluptatem quos eaque molestias unde impedit iure mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, vero.</p>
+                      <img  class="feedback-img rounded-circle" src="labonya.jpg">
+                      <h6>AALabonya</h6>
+                    </div>
+                      <div class="carousel-item">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iste est alias eius voluptatum optio adipisci provident autem, voluptatibus animi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, vero.</p>
+                        <img class="feedback-img rounded-circle" src="labonya.jpg">
+                        <h6>AALabonya</h6>
+                      </div>
+                      <div class="carousel-item">
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid iusto voluptates aliquam. Optio blanditiis placeat quos dolores saepe nam dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, vero.</p>
+                        <img class="feedback-img rounded-circle" src="labonya.jpg">
+                        <h6>AALabonya</h6>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+        </div>
+
+    </section>
+</div>
+
+    
+    
+    
+    
+    <!--------------- bootstrap4 js, jquary, popper-------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    
+    </body>
+
+</html>
